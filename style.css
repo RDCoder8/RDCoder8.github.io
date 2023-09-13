@@ -1,0 +1,134 @@
+/* Color Scheme
+
+Limed Spruce
+#384E4E
+
+Tasman
+#D6DED3
+
+Pewter
+#96AEA1
+
+Bali Hai
+#8EA1AC
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P", cursive;
+  color: #D6DED3;
+  font-size: 1rem;
+}
+
+body {
+  padding: 1em;
+  background: rgb(56, 78, 78);
+  background: linear-gradient(
+    180deg,
+    rgba(56, 78, 78, 1) 3%,
+    rgba(150, 174, 161, 1) 51%,
+    rgba(142, 161, 172, 1) 96%
+  );
+}
+
+header {
+  border: 2px solid;
+  padding: 1%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 5vh;
+  background-image: url(/images/wp6592768-1920x1080-desktop-pixel-art-wallpapers.png);
+  background-size: 100%;
+}
+
+header > h1,
+h2 {
+  text-align: center;
+  color: black;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  border: 2px solid;
+  display: flex;
+  height: 35vh;
+  margin-bottom: 5vh;
+  overflow: hidden;
+}
+
+section > figure {
+  height: 100%;
+  width: 50vw;
+}
+
+section > .skill-list {
+  border: 2px solid;
+  width: 33vw;
+}
+
+figure {
+  overflow: hidden;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-me {
+  height: 55vh;
+  background-image: url(/images/wp6592768-1920x1080-desktop-pixel-art-wallpapers.png);
+  background-position: 70% 50%; 
+}
+
+
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1em;
+  width: 70vw;
+}
+
+#contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 55vh;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+li > a > img {
+  width: 100px;
+}
+
+footer {
+  height: 15vh;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+footer > a {
+    align-self: center;
+}
