@@ -50,6 +50,10 @@ h2 {
   color: black;
 }
 
+h2 {
+  margin-bottom: 3%;
+}
+
 .nav-list {
   display: flex;
   justify-content: space-between;
@@ -87,7 +91,7 @@ figure {
 }
 
 #about-me {
-  height: 55vh;
+  height: 60vh;
   background-image: url(./images/wp6592768-1920x1080-desktop-pixel-art-wallpapers.png);
   background-position: 70% 50%; 
 }
@@ -138,7 +142,8 @@ footer > a {
 }
 
 p, a, li {
-  color: beige
+  color: beige;
+  line-height: 1.5;
 }
 
 .highlight:hover {
